@@ -1,0 +1,11 @@
+
+path: ../dataset # dataset root dir
+train: images/train # train images (relative to 'path') 4 images
+val: images/val # val images (relative to 'path') 4 images
+
+# Classes (80 COCO classes)
+names:
+    0: Glioma
+    1: Meningioma
+    2: No Tumor
+    3: Pituitary
